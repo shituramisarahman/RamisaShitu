@@ -11,7 +11,7 @@ A static, responsive portfolio designed for **GitHub Pages**, with Urbanist 600 
 
 ### Editors
 
-- Home: customizable/reorderable sections, featured campaign projects, animated overlapping article display, gradient motion, font and mascot size, header profile image.
+- Home: customizable/reorderable sections, featured campaign projects, clean homepage article previews, gradient motion, font and mascot size, header profile image.
 - Works: edit each work card's cover image/video, orientation, tile span, maximum width and height; add media to each case study.
 - Perspective: choose a featured article; cover images/videos; create original articles; edit article text directly in the page; add 1–3 columns and text, images, videos and PDF elements with per-element style/size/position controls. Section ordering via up/down and dragging on desktop.
 - Identity: upload your profile photo for the header and a PNG signature for the footer. In the site style dialog, change text, typography and background motion.
@@ -30,3 +30,12 @@ A static, responsive portfolio designed for **GitHub Pages**, with Urbanist 600 
 ## Contents
 
 `index.html` page shell; `styles.css` responsive design; `app.js` visual editor and rendering; `defaults.js` baseline resume content; `content.js` published content; `jszip.min.js` ZIP packaging library; `assets/` media uploaded later.
+
+## Version 8 updates
+- Education navigation is now **Background**; old `#education` links redirect internally.
+- Homepage Perspective preview is now a quiet three-item editorial strip with no black panel or heavy hover movement. Select its articles in Edit site → Select homepage articles.
+- Perspective has a large featured-article presentation above a horizontal magazine-cover shelf. Choose the featured article from Edit site → Choose featured article & covers.
+- Enlarged desktop content gutters and responsive Android spacing.
+- Previous cute pastel Shape-Shifter restored with gently floating, blinking eyes (respects reduced motion).
+
+**Note:** CSS changes may be cached by the browser; hard-refresh after uploading these files to GitHub.
